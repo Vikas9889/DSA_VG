@@ -6,7 +6,7 @@
 using namespace std;
 
 vector<int> calculateSpan(vector<int>& arr) {
-    vector<int> span(arr.size());  // To store the result
+    vector<int> span(arr.size());  // To store the result/ just to see
     stack<pair<int, int>> s;       // Stack to store {element, index}
     
     for (int i = 0; i < arr.size(); i++) {
